@@ -13,7 +13,8 @@
     </p>
     <script>
       require( './menu.js' );
-      var react = require('react');
+      var fs = require('fs');
+      document.write('<h3>' + fs.readdirSync(__dirname).toString().split(',').join('<br />') + '</h3>');
     </script>
   </body>
 </html>
