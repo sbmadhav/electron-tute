@@ -20,7 +20,8 @@ app.on( 'ready', function () {
       mainWindow = null;
     });
 
-    mainWindow.loadUrl( 'file://' + __dirname + '/index.html' );
+    mainWindow.webContents.openDevTools();
+    mainWindow.loadURL( 'file://' + __dirname + '/index.html' );
     mainWindow.show();
 })
 .on('window-all-closed', function() {
