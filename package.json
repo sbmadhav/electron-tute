@@ -10,14 +10,14 @@
     "build": "electron-packager . ElectronTute --platform=darwin --arch=x64 --version=0.31.2 --ignore=node_modules/electron-*"
   },
   "devDependencies": {
-    "electron-packager": "^5.0.2",
-    "electron-prebuilt": "^0.31.2",
-    "node-inspector": "^0.12.7",
+    "electron-packager": "^9.0.1",
+    "electron-prebuilt": "^1.4.13",
+    "node-inspector": "^1.1.1",
     "node-pre-gyp": "git+https://git@github.com/enlight/node-pre-gyp.git#detect-electron-runtime-in-find",
-    "react": "^0.14.7"
+    "react": "^15.6.1"
   },
   "dependencies": {
-    "electron-packager": "^5.2.1",
-    "react": "^0.14.7"
+    "electron-packager": "^9.0.1",
+    "react": "^15.6.1"
   }
 }
